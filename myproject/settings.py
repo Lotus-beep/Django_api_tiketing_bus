@@ -26,9 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3_=8%hdzka^^7)n@f&nt!8h)=$k8$^=p1#cb3m2*f^-%9tha#s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = ['django_tiketbus-main-f0b12ec.kuberns.cloud']
+DEBUG = True
 
 
 # Application definition
@@ -68,7 +66,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://django_tiketbus-main-f0b12ec.kuberns.cloud",
+    "http://localhost:3000",
 ]
 
 
